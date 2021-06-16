@@ -149,7 +149,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                      [InlineKeyboardButton(text="👨🏽‍💻MASTER👨🏽‍💻", url="t.me/CYBER_YT")],
                      [InlineKeyboardButton(text="👥Any Doubt", url="t.me/CYBER_YT"), InlineKeyboardButton(text="Updates🤖", url="t.me/CYBER_YT")],
                      [InlineKeyboardButton(text="🎬CHANNEL", url="https://t.me/KERALA_ROCKERS"), InlineKeyboardButton(text="🗣GROUP", url="https://t.me/KLR_CHAT")],
-                     [InlineKeyboardButton(text="MASTER CHANNEL", url="https://t.me/movie_shop3)) ]]))
+                     [InlineKeyboardButton(text="MASTER CHANNEL", url="https://t.me/movie_shop3) ]]))
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
