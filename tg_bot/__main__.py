@@ -23,7 +23,7 @@ PM_START_TEXT = """
 
 *ഞാൻ* [ഇദ്ദേഹം](tg://user?id={}) *നോക്കി നടത്തുന്ന ഒരു അടിപൊളി അഡ്മിൻ ബോട്ടാണ്.*
 
-*ഒരു ഗ്രൂപ്പ് മാനേജ്മെന്റ് ബോട്ട് ആണ് എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിൽ ആഡ് ചെയ്യാൻ നോക്കി സമയം കളയണ്ട
+*എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിൽ ആഡ് ചെയ്യാൻ നോക്കി സമയം കളയണ്ട
  എന്നെ @KLR_CHAT ഗ്രൂപ്പിൽ മാത്രമേ ആഡ് ചെയ്യാൻ കഴിയൂ...!!!.*
 
 """
@@ -148,8 +148,8 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="🤖BOT USER", url="t.me/Hacker_Jr"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="👨🏽‍💻MASTER👨🏽‍💻", url="t.me/CYBER_YT")],
-                     [InlineKeyboardButton(text="👥Any Doubt", url="t.me/CYBER_YT"), InlineKeyboardButton(text="Updates🤖", url="t.me/CYBER_YT")],
+                     [InlineKeyboardButton(text="👨🏽‍💻MASTER👨🏽‍💻", url="t.me/CYBER_YT1")],
+                     [InlineKeyboardButton(text="👥Any Doubt", url="t.me/CYBER_YT1"), InlineKeyboardButton(text="Updates🤖", url="t.me/CYBER_YT1")],
                      [InlineKeyboardButton(text="🎬CHANNEL", url="https://t.me/KERALA_ROCKERS"), InlineKeyboardButton(text="🗣GROUP", url="https://t.me/KLR_CHAT")],
                      [InlineKeyboardButton(text="➕ Add me to your group ➕", url="t.me/{}?startgroup=true".format(bot.username)) ]]))
     else:
